@@ -1,8 +1,6 @@
-.DS_Store
-
 # Compiler files
-**/cache/
-**/out/
+cache/
+out/
 
 # Ignores development broadcast logs
 !/broadcast
@@ -13,6 +11,6 @@
 docs/
 
 # Dotenv file
-**/.env
+.env
 
-**/lib/
+lib/
