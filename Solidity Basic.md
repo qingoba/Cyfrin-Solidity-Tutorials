@@ -16,6 +16,10 @@ Commonly used data types in Solidity:
 
 + `address`: 20 bytes value. An example of an address can be found within your MetaMask account.
 
+  `address payable` 在 Solidity 中, address 和 address payable 是两种类型, 前者不能接受 ETH; 后者可以接受 ETH 并且有 transfer 和 send 方法.
+
+  address 类型的变量有一个 balance 成员, 可以获取账号的 ETH 余额
+
 + `bytes`: low-level raw byte data (actually a sequence)
 
   > The value types `bytes1`, `bytes2`, `bytes3`, …, `bytes32` hold a sequence of bytes from one to up to 32. And `bytes` hold dynamic size.
